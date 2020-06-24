@@ -1,6 +1,17 @@
 # Project Overnight: Photo Banner Service
 
+[![Build Status](https://img.shields.io/github/forks/JustinPaoletta/ProjectOvernight.svg?style=for-the-badge)](https://github.com/JustinPaoletta/ProjectOvernight)
+[![Build Status](https://img.shields.io/github/stars/JustinPaoletta/ProjectOvernight.svg?style=for-the-badge)](https://github.com/JustinPaoletta/ProjectOvernight)
+[![Dependency Status](https://img.shields.io/david/JustinPaoletta/ProjectOvernight.svg?style=for-the-badge)](https://david-dm.org/JustinPaoletta/ProjectOvernight)
+
 > A service handling the photo banner to display and allow the user to browse through photos. See a photo grid displaying up to 5 images, whereby hovering over one brings the photo into focus and dimming the others. Click into the photo to see more details and access other images for the record via an image carousel.
+
+## See The Project
+
+![Homepage](homepage.png)
+![photo-module](photo-module.png)
+
+> Images may no longer be hosted on S3 due to the cost of keeping everything deployed
 
 ## Related Projects
 
@@ -55,9 +66,4 @@ This module follows [Airbnb style guide](https://github.com/airbnb/javascript)
 
 - POST /api/photos/:id - Posts a new set of photos for a new ID
 
-## See The Project
 
-![Homepage](homepage.png)
-![photo-module](photo-module.png)
-
-> Images may no longer be hosted on S3 due to the cost of keeping everything deployed
